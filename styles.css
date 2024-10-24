@@ -1,0 +1,27 @@
+/* Place your CSS styles in this file */
+body {background-color: rgb(235, 221, 205);
+      border: 5px solid rgb(174, 142, 147);
+      border-radius: 20px;
+}
+
+
+h1  {
+    text-align: :right;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    color: brown
+    
+
+
+}
+ul {list-style-type: none;
+background-color: antiquewhite;
+margin-left: 3vh;
+margin-right: 3vh;
+border: solid;
+border-radius: 5vh;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: brown;
+}
+li{display: inline;
+}
