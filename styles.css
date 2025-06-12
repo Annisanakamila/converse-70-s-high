@@ -122,3 +122,25 @@ p {
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
+
+/* === Colab Button Styling === */
+.colab-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: maroon;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+}
+
+.colab-button:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
+    color: #ffcccb;
+    letter-spacing: 0.5px;
+}
+
